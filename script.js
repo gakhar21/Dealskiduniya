@@ -1,0 +1,1 @@
+const boxes=[...document.querySelectorAll('.cats input')];boxes.forEach(x=>x.addEventListener('change',e=>{if(boxes.filter(b=>b.checked).length>3){e.target.checked=false;alert('Please select a maximum of 3 categories.')}}));
