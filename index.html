@@ -1,14 +1,17 @@
 <!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Deals Ki Duniya</title><link rel="stylesheet" href="style.css"></head><body><header><nav><div class="logo">🇮🇳 Deals Ki Duniya</div>
     <div class="links"><a href="#deals">Deals</a><a href="#categories">Categories</a><a href="#pricing">Pricing</a><a href="#business">Business</a></div></nav>
-    <div class="search-container">
-  
-      <input 
-    type="text" 
-    id="searchInput" 
-    placeholder="Search brands or deals..."
-    onkeyup="searchItems()"
+   <div class="search-container">
+  <div class="search-box">
+    <span class="search-icon">&#128269;</span>
+    
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search your favorite brands or deals..."
+      onkeyup="searchItems()"
     >
+  </div>
 </div>
     <div class="hero"><div><span class="badge">🇮🇳 Indian Brands & Businesses Only</span><h1>India's Hottest Deals,<br><span>Delivered to You.</span></h1>
       <p>Choose 1–3 categories and receive 5 hand-picked deals every month by email.</p><a class="btn" href="#pricing">Join for ₹100/year</a></div>
@@ -35,7 +38,7 @@
                     <p>India's personalized deals platform.</p><p>Payment methods: UPI • Debit Card • Credit Card</p><small>© 2026 Deals Ki Duniya</small></footer>
     <script src="script.js"></script>
   
-  <script>
+<script>
 function searchItems() {
   let input = document.getElementById("searchInput");
   let filter = input.value.toLowerCase();
