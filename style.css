@@ -23,7 +23,8 @@ adgrid strong{font-size:26px}footer{padding:45px 4%;background:#0d1117;color:#dd
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 15px;
+  gap: 10px;
+  width: 100%;
 }
 
 .search-box {
