@@ -101,8 +101,22 @@ adgrid strong{font-size:26px}footer{padding:45px 4%;background:#0d1117;color:#dd
   object-fit: cover;
   display: block;
 }
-
 .hero-header {
-    background: url("header.png") center center / cover no-repeat;
-    height: 350px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
 }
