@@ -1,22 +1,296 @@
-<!doctype html>
-<html lang="en">
+ <title>Deals Ki Duniya</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deals Ki Duniya</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+    <!-- HEADER -->
+    <header>
 
-    <!-- NAVIGATION -->
-    <nav>
-        <div class="logo">Deals Ki Duniya</div>
-}
-</script>
-  
-    
-  </body></html>
+        <!-- NAVIGATION -->
+        <nav>
+            <div class="logo">Deals Ki Duniya</div>
+
+            <div class="links">
+                <a href="#deals">Deals</a>
+                <a href="#categories">Categories</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#business">Business</a>
+            </div>
+        </nav>
+
+        <!-- SEARCH BAR -->
+        <div class="search-container">
+
+            <div class="search-box">
+
+                <img src="logo.png" alt="Logo">
+
+                <span class="search-icon">&#128269;</span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search your favorite brands or deals..."
+                    onkeyup="searchItems()"
+                >
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- HEADER IMAGE -->
+    <div class="hero-header">
+        <img
+            src="header.png"
+            alt="Deals Ki Duniya"
+            class="header-image"
+        >
+    </div>
+
+
+    <!-- HERO CONTENT -->
+    <div class="hero">
+
+        <div>
+
+            <span class="badge">
+                🇮🇳 Indian Brands & Businesses Only
+            </span>
+
+            <h1>
+                India's Hottest Deals,<br>
+                <span>Delivered to You.</span>
+            </h1>
+
+            <p>
+                Choose 1–3 categories and receive 5 hand-picked deals every month by email.
+            </p>
+
+            <a class="btn" href="#pricing">
+                Join for ₹100/year
+            </a>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            🔥
+
+            <h2>5 Hottest Deals</h2>
+
+            <p>Every month</p>
+
+            <strong>₹100 / year</strong>
+
+        </div>
+
+    </div>
+
+
+    <main>
+
+        <!-- DEALS SECTION -->
+        <section id="deals">
+
+            <small>FEATURED</small>
+
+            <h2>Today's Hottest Deals</h2>
+
+            <div class="grid">
+
+                <article>
+                    <div class="emoji">📱</div>
+                    <b>Electronics</b>
+                    <h3>Smartphone Special Offer</h3>
+                    <p>Sample deal from an Indian business.</p>
+                    <strong>Up to 40% OFF</strong>
+                </article>
+
+                <article>
+                    <div class="emoji">👕</div>
+                    <b>Fashion</b>
+                    <h3>Fashion Weekend Sale</h3>
+                    <p>Sample deal from an Indian business.</p>
+                    <strong>Up to 50% OFF</strong>
+                </article>
+
+                <article>
+                    <div class="emoji">🏠</div>
+                    <b>Home & Kitchen</b>
+                    <h3>Home Essentials Deal</h3>
+                    <p>Sample deal from an Indian business.</p>
+                    <strong>Up to 35% OFF</strong>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORIES -->
+        <section id="categories" class="light">
+
+            <small>PERSONALIZE</small>
+
+            <h2>Choose Your Categories</h2>
+
+            <p>Select minimum 1 and maximum 3.</p>
+
+            <div class="cats">
+
+                <label><input type="checkbox"> 📱 Electronics</label>
+                <label><input type="checkbox"> 👕 Fashion</label>
+                <label><input type="checkbox"> 🏠 Home & Kitchen</label>
+                <label><input type="checkbox"> 💄 Beauty</label>
+                <label><input type="checkbox"> 🍔 Food & Grocery</label>
+                <label><input type="checkbox"> 🚗 Automotive</label>
+                <label><input type="checkbox"> ✈️ Travel</label>
+                <label><input type="checkbox"> 🎮 Gaming</label>
+                <label><input type="checkbox"> 👶 Kids & Baby</label>
+                <label><input type="checkbox"> 💍 Jewellery</label>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRICING -->
+        <section id="pricing">
+
+            <small>MEMBERSHIP</small>
+
+            <h2>Simple Pricing</h2>
+
+            <div class="grid">
+
+                <div class="card">
+
+                    <h3>👤 Customer</h3>
+
+                    <div class="price">
+                        ₹100 <small>/ year</small>
+                    </div>
+
+                    <ul>
+                        <li>Choose 1–3 categories</li>
+                        <li>5 hottest deals every month</li>
+                        <li>Deals by email</li>
+                        <li>Indian brands only</li>
+                    </ul>
+
+                    <button class="btn">
+                        Subscribe
+                    </button>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>🏪 Business</h3>
+
+                    <div class="price">
+                        ₹500 <small>/ year</small>
+                    </div>
+
+                    <ul>
+                        <li>Business profile</li>
+                        <li>Post and promote deals</li>
+                        <li>Reach interested customers</li>
+                        <li>Admin approval</li>
+                    </ul>
+
+                    <button class="btn">
+                        Register Business
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BUSINESS -->
+        <section id="business" class="dark">
+
+            <small>ADVERTISING</small>
+
+            <h2>Promote Your Business</h2>
+
+            <div class="adgrid">
+
+                <div>
+                    <h3>Header Title Ad</h3>
+                    <strong>₹10,000/month</strong>
+                </div>
+
+                <div>
+                    <h3>Footer Ad</h3>
+                    <strong>₹8,000/month</strong>
+                </div>
+
+                <div>
+                    <h3>Side Ad</h3>
+                    <strong>₹5,000/month</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="logo">
+            🇮🇳 Deals Ki Duniya
+        </div>
+
+        <p>India's personalized deals platform.</p>
+
+        <p>
+            Payment methods: UPI • Debit Card • Credit Card
+        </p>
+
+        <small>
+            © 2026 Deals Ki Duniya
+        </small>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function searchItems() {
+
+            let input = document.getElementById("searchInput");
+            let filter = input.value.toLowerCase();
+
+            let items = document.querySelectorAll("article, .card");
+
+            items.forEach(function(item) {
+
+                let text = item.textContent.toLowerCase();
+
+                if (text.includes(filter)) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+
+            });
+        }
+    </script>
+
+</body>
+
+</html>
