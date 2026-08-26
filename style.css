@@ -96,9 +96,8 @@ adgrid strong{font-size:26px}footer{padding:45px 4%;background:#0d1117;color:#dd
 }
 
 .center-image img {
-    width: 100px;
-    max-width: 30%;
-    height: 250px;
+    width: 100%;
+    max-height: 400px;
   object-fit: cover;
   display: block;
 }
